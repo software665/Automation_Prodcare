@@ -12,7 +12,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 
-test.describe('login page with valid crenditals ',()=>{
+test.describe('login page  ',()=>{
     test('Login ', async ({ page }) => {
         const pm = new PageManager(page);
         await pm.loginPage.loginPageCredentials(
