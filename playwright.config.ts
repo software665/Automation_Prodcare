@@ -38,18 +38,18 @@ reporter: [
     launchOptions: { args: ['--start-maximized'] },
   },
 },
-  // { name: 'firefox', use: { ...devices['Desktop Firefox'] } },
-     { name: 'webkit',  use: { ...devices['Desktop Safari'] } },
+  // // { name: 'firefox', use: { ...devices['Desktop Firefox'] } },
+  //    { name: 'webkit',  use: { ...devices['Desktop Safari'] } },
 
-       // -------------------------
-    // ANDROID MOBILE
-    // -------------------------
+  //      // -------------------------
+  //   // ANDROID MOBILE
+  //   // -------------------------
 
-    {
-      name: 'Android Chrome - Pixel 7',
-      use: {
-        ...devices['Pixel 7'],
-      },
-    },
+  //   {
+  //     name: 'Android Chrome - Pixel 7',
+  //     use: {
+  //       ...devices['Pixel 7'],
+  //     },
+  //   },
   ],
 });
