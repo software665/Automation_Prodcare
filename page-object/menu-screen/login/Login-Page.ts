@@ -21,7 +21,8 @@ export class LoginPage {
     password: string,
     rememberMe: boolean,
     forgotPassword?: boolean,
-  ) {
+  ) 
+  {
     const organisationInput = this.page.getByPlaceholder("your-company");
     const userNameInput = this.page.getByPlaceholder("Username");
     const passwordInput = this.page.getByPlaceholder("Password");

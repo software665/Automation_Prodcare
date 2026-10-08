@@ -19,9 +19,11 @@ test.describe('login page',()=>{
             loginData.adminCredentials.organisation,
             loginData.adminCredentials.username,
             loginData.adminCredentials.password,
-            true,
+            false,
             false
         );
+
+        await pm.loginPage.SignOutPage();
         
     })
 })
